@@ -21,6 +21,7 @@ componentDidUpdate(prevProps) {
   }
 }
 
+
   render() {
     let activeClass = this.state.active ? 'activeCard' : '';
     let className = `card ${activeClass}`
