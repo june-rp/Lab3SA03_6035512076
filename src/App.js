@@ -20,12 +20,9 @@ const prepareStateFromWord = (given_word) => {
   }
 }
 
-
 class App extends React.Component {
 
   state = prepareStateFromWord(message);
-
-
 
   activationHandler = (c) => {
     let guess = [...this.state.guess, c]
@@ -50,8 +47,8 @@ class App extends React.Component {
     return (
       <div className="text">
         <div>
-          <h1> 3SA03 </h1>
-          <h4>PARICHAT KRUETIAW 6035512076 </h4>
+          <h1> 3SA03 </h1>      
+          <h4>PARICHAT KRUETIAW 6035512076 </h4>    
           {
             Array.from(this.state.chars).map((item, index) => (
               <CharacterCard
