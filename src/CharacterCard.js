@@ -8,6 +8,7 @@ export default class CharacterCard extends Component {
         active: false,
     }
 }
+
 activate = () => {
     if (!this.state.active) {
         this.props.activationHandler(this.props.value)
