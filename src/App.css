@@ -1,3 +1,8 @@
+body{
+  background-color: #33ADFA;
+}
+
+
 .card {
   display: inline-block;
   text-align: center;
