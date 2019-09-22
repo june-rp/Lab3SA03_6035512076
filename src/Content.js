@@ -1,23 +1,22 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 
 
 
-export default class Content extends Component{
-    construstor (){
+export default class Content extends Component {
+    construstor() {
         super()
-        this.state={
-            count:0
+        this.state = {
+            count: 0
         }
     }
-    addNum=()=>{
-        this.setState({count:this.state.count+1})
+    addNum = () => {
+        this.setState({ count: this.state.count + 1 })
     }
-    render (){
-        return(
+    render() {
+        return (
             <div>
                 <botton>onClick={this.addNum}>num{this.state.count}</botton>
             </div>
         )
     }
 }
-    
