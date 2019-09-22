@@ -1,0 +1,21 @@
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 4em;
+  height: 2em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  user-select: none;
+}
+.activeCard {
+  color:rgb(238, 133, 133);
+  background: pink;
+  background-color: rgb(120, 229, 248);
+}
+.select {
+  color: #000a07;
+}
+.text{
+  text-align : center; 
+}
